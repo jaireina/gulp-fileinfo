@@ -1,0 +1,30 @@
+{
+  "name": "gulp-fileinfo",
+  "version": "1.0.0",
+  "description": "Reads the names of the files that are coming through the pipe or any other properties that you want.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaireina/gulp-fileinfo.git"
+  },
+  "keywords": [
+    "file",
+    "info",
+    "read",
+    "properties",
+    "file",
+    "pipe"
+  ],
+  "author": "Jair Reina <jaireina@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaireina/gulp-fileinfo/issues"
+  },
+  "homepage": "https://github.com/jaireina/gulp-fileinfo#readme",
+  "dependencies": {
+    "through2": "^2.0.0"
+  }
+}
