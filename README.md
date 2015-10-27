@@ -53,7 +53,7 @@ The fileList variable will be an array of strings containing the name of the fil
 
 By default, the plugin just reads the `relative` property of the files. If you want something different, you can:
 
-### properties
+### options.properties
 You can get the value of one specific property different to 'relative' passing the name of the property you want to read, like this:
 ```json
 {"properties": "path"}
@@ -73,3 +73,5 @@ When the 'properties' value is an array, the filesList array will contain object
 You can get a list of the Vinyl files properties here: https://github.com/gulpjs/vinyl
 
 
+### options.callback
+Callback that will be invoked once all the files have been read. It receives as a parameter the filesList array.
