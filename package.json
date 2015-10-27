@@ -1,6 +1,6 @@
 {
   "name": "gulp-fileinfo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reads the names of the files that are coming through the pipe or any other properties that you want.",
   "main": "index.js",
   "scripts": {
