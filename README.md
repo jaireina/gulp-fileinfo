@@ -61,7 +61,7 @@ You can get the value of one specific property different to 'relative' passing t
 
 You can also get In this case you need to set the properties prop as an array.
 ```json
-{"properties": ['relative','path','basename']}
+{"properties": ["relative","path","basename"]}
 ```
 
 When the 'properties' value is an array, the filesList array will contain objects (instead of strings) with the properties desired for each file. For instance:
