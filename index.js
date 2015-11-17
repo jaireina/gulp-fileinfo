@@ -55,7 +55,7 @@ module.exports = function(options) {
     
     filesList.push(getFileInfo(file));
     
-    cb();
+    cb(null,file);
   }
 
   function endStream(cb) {
