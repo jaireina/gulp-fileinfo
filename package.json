@@ -26,5 +26,8 @@
   "homepage": "https://github.com/jaireina/gulp-fileinfo#readme",
   "dependencies": {
     "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "lodash": "^3.10.1"
   }
 }

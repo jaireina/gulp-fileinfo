@@ -1,6 +1,7 @@
 'use strict';
 
-var through = require('through2');
+var through = require('through2'),
+    _ = require('lodash');
 
 //options is an object that can have two props
 //properties: could be a string with the name of one property that you want to ready of the file, or it can be an array of all the properties you want to get from the file
@@ -18,7 +19,7 @@ module.exports = function(options) {
                     }
                   };
 
-  options = Object.assign(defaults, options);
+  options = _.assign(defaults, options);
 
   //the getProperty just reads one property from the file, the one in the properties var
   var getProperty = function getProperty(file){
